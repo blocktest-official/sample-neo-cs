@@ -1,12 +1,11 @@
-using Neo.SmartContract.Framework;
-
-namespace Return42SmartContract
+namespace SquareSmartContract
 {
     public class Contract : SmartContract
     {
-        public static int Main()
+        public static int Main(int num)
         {
-            return 42;
+            var result = num * num;
+            return result;
         }
     }
 }
