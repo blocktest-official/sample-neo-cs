@@ -1,3 +1,5 @@
+using Neo.SmartContract.Framework;
+
 namespace SquareSmartContract
 {
     public class Contract : SmartContract
